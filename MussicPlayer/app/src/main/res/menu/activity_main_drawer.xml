@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            android:visible="true"
+            android:enabled="true"
+            android:checkable="true"
+            android:checked="true" />
+        <item
+            android:id="@+id/History"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="History"
+            android:checkable="true"
+            android:checked="true"
+            android:enabled="true"
+            android:visible="true" />
+        <item
+            android:id="@+id/Media_list"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="MediaList"
+            android:visible="true"
+            android:enabled="true"
+            android:checked="true"
+            android:checkable="true" />
+        <item
+            android:id="@+id/AbumList"
+            android:icon="@drawable/abum"
+            android:title="Abum"
+            android:visible="true"
+            android:enabled="true"
+            android:checked="true"
+            android:checkable="true" />
+        <item
+            android:id="@+id/Openforder"
+            android:icon="@drawable/bluefolder"
+            android:title="Forder"
+            android:visible="true"
+            android:enabled="true"
+            android:checked="true"
+            android:checkable="true" />
+    </group>
+
+    <item android:title="Help"
+        android:visible="true"
+        android:enabled="true"
+        android:checked="true"
+        android:checkable="true">
+        <menu>
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting" />
+            <item
+                android:id="@+id/About"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="About" />
+            <item
+                android:id="@+id/Exit"
+                android:icon="@drawable/shutdown"
+                android:title="Exit" />
+
+        </menu>
+
+    </item>
+
+</menu>
